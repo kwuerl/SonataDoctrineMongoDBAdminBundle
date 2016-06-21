@@ -380,6 +380,7 @@ This code manage the many-to-[one|many] association field popup
             }
 
             jQuery('#{{ id }}').val('');
+            jQuery('#{{ id }}').attr("value",'');
             jQuery('#{{ id }}').trigger('change');
 
             return false;
